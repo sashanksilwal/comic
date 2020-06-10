@@ -4,7 +4,7 @@ document.addEventListener('keydown', logKey);
 
 function logKey(e) {
   if (panelPArt==0 && e.which==32){
-    document.getElementById("panel1").src = "../images/panel1/Classroom2.png" ;
+    document.getElementById("panel1").src = "Classroom2.png" ;
     panelPArt++;
     
   }
